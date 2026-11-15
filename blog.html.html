@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <dic class="img"></dic>
+            <a href="index.html"><img src="images/video_image-KESXHuAiP.jpeg"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="blog.html.html">BLOG</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2023</h1>
+</section>
+<!----blog page-->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/14.jpg">
+            <h2>Our Certificate & Online Programs For 2023</h2>
+            <p>
+                Graduation is a significant event in life that marks the end of one chapter and the beginning of another
+                It is a time to celebrate accomplishments and recognize the hard work that has been put in to achieve them 
+                Graduation is more than just a ceremony, it is a time to grow up, take up responsibilities, and chase dreams 
+                It opens doors to opportunities and marks the beginning of a new path in life
+            </p>
+            <br>
+            <p>
+                It is a time to celebrate the end of one chapter in a student’s life and the beginning of another. It is also a 
+                time to reflect on the past four years and to look ahead to the future. For many students, high school graduation 
+                is the first step on the path to college and a career. It is a time to set goals and to start planning for the future
+            </p>
+            <br>
+            <p>
+                People who attain a higher level of educational attainment can obtain a higher income, as well as better living conditions, 
+                healthier foods, and health care services. Students who graduate from high school have a higher chance of living a healthy life
+            </p>
+            <br>
+            <p>
+                Whether you go on to study or work, you leave high school with many valuable skills and experiences. You’ve gained a lot of knowledge 
+                about research, listening, collaborating, and leading. Your creativity and innovation have also grown, and you have demonstrated consistent 
+                dedication and effort in all of your classes and activities.
+            </p>
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="h-btn r-btn">Send Comment</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Computer Science and Engineering</span>
+                <span>250</span>
+            </div>
+            <div>
+                <span>Electronics and Communication Engineering</span>
+                <span>230</span>
+            </div>
+            <div>
+                <span>Electrical and Electronics Engineering</span>
+                <span>180</span>
+            </div>
+            <div>
+                <span>Artificial Intelligence</span>
+                <span>150</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>110</span>
+            </div>
+            <div>
+                <span>Mechanical Engineering</span>
+                <span>200</span>
+            </div>
+            <div>
+                <span>Robotics</span>
+                <span>100</span>
+            </div>
+            <div>
+                <span>Human Resource Management </span>
+                <span>145</span>
+            </div>
+            <div>
+                <span>Financial Management</span>
+                <span>100</span>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+<!---Footer-->
+<sectionc class="footer">
+    <h4>About Us</h4>
+    <p>
+        Capital Edu was founded almost 150 years ago on a bedrock of societal purpose. Our mission is to contribute to the world by 
+        educating students for lives of leadership and purposeful contribution; advancing fundamental knowledge and cultivating
+        creativity; and accelerating solutions and amplifying their impact 
+    </p>
+    <div class="icons">
+        <i class="fa fa-facbook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkdin"></i>
+    </div>
+    <p> Made With by<i class="fas fa-atom"></i>SanthoshPuram</p>
+
+</sectionc>
+
+<!--------JavaScript for Toggle Menu-------->
+<script>
+    var navlinks=document.getElementById("nav-links");
+    function showMenu(){
+        navlinks.style.right="0"
+    }
+    function hideMenu(){
+        navlinks.style.right="-200px"
+    }
+</script>
+    
+
+      
+    
+</body>
+</html>
